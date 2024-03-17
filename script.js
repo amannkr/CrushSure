@@ -35,6 +35,12 @@ noBtn.addEventListener("click", function () {
           noBtn.style.left = i + "px";
           noBtn.style.top = j + "px";
         });
+        noBtn.addEventListener("mouseover", function () {
+          let i = Math.floor(Math.random() * 500) + 1;
+          let j = Math.floor(Math.random() * 500) + 1;
+          noBtn.style.left = i + "px";
+          noBtn.style.top = j + "px";
+        });
       }
     }
   }
