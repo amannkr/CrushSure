@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+body {
+  background-image: url("background.jpg");
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* IMAGE */
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ask_img {
+  display: none;
+  width: 237px;
+  height: 238px;
+  border-radius: 0.5rem;
+  background-color: rgba(149, 149, 149, 0.105);
+  /* box-shadow: 0px 0px 10px rgb(46, 46, 46); */
+}
+
+.img-active {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TEXT */
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  background-color: antiquewhite;
+  border-radius: 0.8rem;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ask_txt {
+  display: none;
+}
+
+.txt-active {
+  display: block;
+}
+
+/* BUTTON */
+.btn {
+  display: flex;
+  gap: 50px;
+
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0.8rem 1.2rem;
+  border-radius: 01rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Yes_btn {
+  /* border-style: solid; */
+  box-shadow: 0px 0px 6px rgb(135, 135, 135);
+}
+
+.No_btn {
+  display: block;
+  position: relative;
+  box-shadow: 0px 0px 6px rgb(135, 135, 135);
+}
+
+.hidden-box {
+  height: 136.5px;
+  width: 350px;
+}
+
+.hidden {
+  display: none;
+}
