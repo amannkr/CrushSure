@@ -49,5 +49,5 @@ yesBtn.addEventListener("click", function () {
 });
 
 messageBtn.addEventListener("click", function () {
-  onclick = window.open("https://www.instagram.com/direct/t/17849728238668039");
+  onclick = window.open("https://www.instagram.com/iamannkr/");
 });
